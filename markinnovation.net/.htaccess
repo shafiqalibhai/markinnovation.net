@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^markinnovation.net$
+RewriteRule ^/?$ "http\:\/\/www\.markinnovation\.net\/" [R=301,L]
+
